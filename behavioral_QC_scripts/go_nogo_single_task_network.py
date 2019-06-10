@@ -14,9 +14,8 @@ go go go go nogo
 
 import pandas as pd
 
-input_path = "/Users/jamie/Desktop/network_tasks_output_files/go_nogo_single_task_network/"
-input_path = "/Users/jamie/Desktop/network_output/final/A11S8IAAVDXCUS/modified_for_analysis/"
-task = 'go_nogo_single_task_network_A11S8IAAVDXCUS.csv'
+input_path = "/Users/jamie/Desktop/network_output/final/A3NNB4LWIKA3BQ/modified_for_analysis/"
+task = 'go_nogo_single_task_network_A3NNB4LWIKA3BQ.csv'
 
 df = pd.read_csv(input_path + task) 
 

@@ -16,12 +16,12 @@ full counterbalancing
 160 total trials, 32 trials per block, 5 blocks total
 
 """
+A3NNB4LWIKA3BQ
 
 import pandas as pd
 
-input_path = "/Users/jamie/Desktop/network_tasks_output_files/two_by_two_with_directed_forgetting/"
-input_path = "/Users/jamie/Downloads/"
-task = 'cued_task_switching_with_directed_forgetting_results_jamie.csv'
+input_path = "/Users/jamie/Desktop/network_output/final/A3NNB4LWIKA3BQ/modified_for_analysis/"
+task = 'directed_forgetting_single_task_network_A3NNB4LWIKA3BQ.csv'
 
 df = pd.read_csv(input_path + task) 
 

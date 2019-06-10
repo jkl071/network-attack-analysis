@@ -17,9 +17,8 @@ note: nback tasks must have multiples of 3 blocks, 1 for each delay (1,2,3)
 
 import pandas as pd
 
-input_path = "/Users/jamie/Desktop/network_tasks_output_files/n_back_single_task_network/"
-input_path = "/Users/jamie/Desktop/network_output/final/A11S8IAAVDXCUS/modified_for_analysis/"
-task = 'n_back_single_task_network_A11S8IAAVDXCUS.csv'
+input_path = "/Users/jamie/Desktop/network_output/final/A3NNB4LWIKA3BQ/modified_for_analysis/"
+task = 'n_back_single_task_network_A3NNB4LWIKA3BQ.csv'
 
 df = pd.read_csv(input_path + task) 
 
